@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Borel&family=Bricolage+Grotesque&family=Jost:wght@100;200&family=Outfit:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Borel&family=Bricolage+Grotesque&family=Jost:wght@100;200&family=Outfit:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Borel&family=Bricolage+Grotesque&family=Fira+Code:wght@300&family=Jost:wght@100;200&family=Montserrat:wght@100;300&family=Outfit:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Borel&family=Bricolage+Grotesque&family=Fira+Code:wght@300&family=Jost:wght@100;200&family=Montserrat:wght@100;300&family=Outfit:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Borel&family=Bricolage+Grotesque&family=Encode+Sans+Semi+Condensed:wght@200;300;400&family=Fira+Code:wght@300&family=Jost:wght@100;200&family=Montserrat:wght@100;300&family=Outfit:wght@100;200&display=swap');
+
+body{
+    background-color: rgb(22, 22, 21);
+}
+.informacoes-perfil{
+    display: flex;
+    justify-content: space-around;
+}
+.agrupados{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.nome{
+    color: white;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 40px;
+}
+.descricao{
+    color: white;
+    font-size: 17px;
+    margin-top: -50px;
+    font-family: 'Jost', sans-serif;
+}
+.texto-introdutorio{
+    width: 570px;
+    font-size: 17px;
+    color: white;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.redes-sociais{
+    margin-top: 20px;
+    display: flex;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 20px;
+    border-radius: 19px;
+    background-color: rgb(118, 118, 118);
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+.logo-thaina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.logo-thaina img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50rem;
+}
+code{
+    display: none;
+    color: rgb(111, 12, 63);
+}
+.text{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    color: rgb(197, 197, 197);
+    font-family: 'Jost', sans-serif;
+}
+#h1-projects{
+    padding: 3rem;
+}
+.tecnologias{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+figcaption{
+    display: flex;
+    justify-content: center;
+    color: #8e8d8d;
+    font-family: 'Fira Code', monospace;
+}
+.card img{
+    width: 80px;
+    height: 80px;
+    border-radius: 7px;
+    margin: 12px;
+}
+.projeto{
+    display: flex;
+    justify-content: center;
+}
+.area-projects{
+    margin-top: 40px;
+    padding: 2rem;
+}
+.imagem-projeto{
+    width: 355px;
+    height: 350px;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background-color: #8e8d8d;
+}
+
+.movie-api, .img-project{
+    width: 555px;
+    height: 350px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: #8e8d8d;
+}
+
+.container-projects{
+    display: flex;
+    justify-content: center;
+}
+.imagem-projeto-consultoria{
+    width: 605px;
+    height: 350px;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background-color: #8e8d8d;
+}
+#site-photo{
+    background-image: url("../img/site-photo.png");
+    background-size: 355px;
+    background-repeat: no-repeat;
+}
+#my-portifolio{
+    background-image: url("../img/portifolio.png");
+    background-size: 550px;
+    background-repeat: no-repeat;
+}
+#consultoria{
+    background-image: url("../img/consultoria.png");
+    background-size: 650px;
+    background-repeat: no-repeat;
+}
+.techs-projeto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.tech{
+    margin: 7px;
+    width: 120px;
+    height: 40px;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background-color: #282838;
+}
+#js, #boots{
+    width: 160px;
+}
+.tech img{
+    border-radius: 2rem;
+}
+.name-project{
+    margin-top: 15px;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+.text-tech{
+    margin-top: -32px;
+    margin-left: 46px;
+    color: gray;
+}
+video{
+    margin-left: -50px;
+    margin-top: 20px;
+    width: 136px;
+    height: 300px;
+    border-radius: 12px;
+    background-color: aliceblue;
+}
+.personal-projects{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container-footer{
+    margin-top: 100px;
+    width: 1300px;
+    height: 560px;
+    padding: 1rem;
+    background-color: #282838;
+    margin-left: 290px;
+    border-top-left-radius: 6rem ;
+    border-bottom-left-radius: 6rem;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    color: aliceblue;
+    font-family: 'Jost', sans-serif;
+}
+.container-videos{
+    display: flex;
+    justify-content: center;
+}
+.item{
+    margin: 20px;
+}
+iframe{
+    border-radius: 1rem;
+}
+.canal-youtube{
+    margin-left: 620px;
+    margin-top: 50px;
+    border: none;
+    font-size: 20px;
+    border-radius: 2rem;
+    width: 140px;
+    padding: 0.8rem;
+    color: rgb(32, 29, 71);
+    background-color: #ffffff;
+    transform: 0.2s;
+}
+.canal-youtube:hover{
+    transform: scale(1.1);
+    background-color: #282838;
+    border: 1px solid white;
+    color: white;
+}
+.btn{
+    color: black;
+}
